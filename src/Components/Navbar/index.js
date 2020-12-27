@@ -28,7 +28,7 @@ const Navbar = ({toggle}) => {
         <Nav scrollNav={scrollNav} >
             <Ncont>
                 <NavLogo to='/' onClick={toggleHome}>
-                    dolla
+                    Amigo
                 </NavLogo>
                 
                 <MoBln onClick={toggle}>

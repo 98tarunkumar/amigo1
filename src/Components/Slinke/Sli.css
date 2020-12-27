@@ -1,0 +1,18 @@
+.slide{
+    height: 150px;
+    width: 300px;
+    background: gray;
+    top: 10px;
+    left: 10%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.btn{
+    width: 10px;
+    height: 10px;
+}

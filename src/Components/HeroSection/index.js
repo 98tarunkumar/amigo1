@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import {HeroCont,HeroBg,VideoBg,HeroContent,HeroH1,HeroP,HeroBtnWrapper,ArrowForward,ArrowRight} from './HeroElements'
-import Video from '../../Videos/vid1.mp4'
+import Video from '../../Videos/covid1.mp4'
 import {Button} from  '../ButtonElement'
 const HeroSection = () => {
 
@@ -15,13 +15,13 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>
-                    Virtual banking made easy
+                    AMIGO
                 </HeroH1>
                 <HeroP>
-                    Sign up for a new Account today
+                    A sweet friendship refreshes the 'Soul'.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} 
+                    <Button to="/signin" onMouseEnter={onHover} onMouseLeave={onHover} 
                         primary="true"
                         dark="true"   
                         smooth={true} duration={500} spy={true} exact='true' offset={-80} 

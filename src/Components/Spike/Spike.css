@@ -1,0 +1,23 @@
+.sli{
+    /* background: gray; */
+    width: inherit;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-top: 16px;
+    
+
+
+
+    justify-self: center;
+}
+
+.leftbb{
+    height: 100px;
+    width: 10px;
+    border: 2px solid black;
+    background: red;
+    color: blue;
+}

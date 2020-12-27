@@ -3,5 +3,17 @@
   margin: 0;
   padding: 0;
   font-family: 'Encode Sans Expanded',sans-serif;
+
+}
+
+a{
+  
+  color: rgb(167, 161, 161);
+  
+  text-decoration: wavy;
+  
+}
+a:hover{
+  color:white;
 }
 
